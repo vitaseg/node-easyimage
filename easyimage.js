@@ -247,6 +247,7 @@ exports.resize = function(options) {
 		}
 
     args.push('-auto-orient')
+	args.push('-coalesce')
     args.push('-resize')
     args.push(options.width + 'x' + options.height)
     if (options.ignoreAspectRatio) {
